@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("./bg\ \(1\).jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height:80vh;
+    position: relative;
+}
+
+.main .box{
+   
+    max-width:80vw;
+    opacity:0.44;
+    position:absolute;
+    top:0;
+    background-color: black;
+    height:62px;
+}
+
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 112px;
+}
+
+nav img{
+    color: red;
+    width:154px;
+    position: relative;
+    z-index: 15;
+}
+
+nav button{
+    position: relative;
+    z-index: 15;
+}
+
+.hero{
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 15;
+  gap:23px;
+  padding:0 23px;
+}
+
+.hero:first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height:170px;
+    width: 100%;
+    color: rgb(248, 235, 235);
+}
+
+.btn{
+    padding: 3px, 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(8, 4, 4, 0.555);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-red{
+   
+    padding: 3px 24px;
+    font-size:20px ;
+    border-radius: 4px;
+}
+
+.btn-red-sm{
+background-color: red;
+color: white;
+}
+
+.main input{
+padding: 3px 101px 8px 14px;
+color: white;
+font-size: 16px;
+border-radius: 4px;
+background-color: rgba(23,23,23,0.7);
+border: 1px solid rgba(247, 243, 243, 0.5);
+}
+
+
+.hero-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+gap:16px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+align-items: center;
+    max-width:70vw;
+    margin:auto;
+    color:white
+}
+.sec-img{
+    position: relative;
+    top:50px;
+   
+}
+
+.sec-img img{
+width:30vw;
+position: relative;
+z-index:10;
+}
+
+.sec-video{
+    position:absolute;
+    top:52px;
+    right:0;
+}
+
+section.first div>first-child{
+
+}
